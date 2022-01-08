@@ -30,12 +30,12 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: gcr.io/cloud-builders/gcloud
+    image: golang:1.10
     command:
     - cat
     tty: true
   - name: kubectl
-    image: gcr.io/cloud-builders/kubectl
+    image: golang:1.10
     command:
     - cat
     tty: true
