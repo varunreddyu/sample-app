@@ -30,7 +30,7 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: golang:1.10
+    image: google/cloud-sdk
     command:
     - cat
     tty: true
